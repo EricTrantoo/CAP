@@ -17,6 +17,7 @@ export default {
         white: "#ffffff",
         black: "#020618",
         grey: "#6a7282",
+        blue: "#0000FF",
       },
       fontFamily: {
         "work-sans": ["var--font-work-sans"],
