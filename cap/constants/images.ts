@@ -1,4 +1,4 @@
-import loginImage from "../public/loginImage.jpg";
+import loginImage from "../public/images/loginImage.jpg";
 
 export default {
   loginImage

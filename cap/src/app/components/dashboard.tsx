@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Menu from "@/app/(root)/Menu";
+import Menu from "@/app/components/Menu";
 import Link from "next/link";
 import Image from "next/image";
 
