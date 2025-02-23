@@ -7,6 +7,7 @@ export default function Home() {
       "use server";
       await signIn('google')
     }}>
+      {/* compile */}
       <button type = "submit">Sign In with Google</button>
     </form>
   );

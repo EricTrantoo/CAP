@@ -19,7 +19,7 @@ export default {
         grey: "#6a7282",
       },
       fontFamily: {
-        "work-sans": ["var(--font-work-sans"],
+        "work-sans": ["var--font-work-sans"],
       },
       borderRadius: {
         lg: "var(--radius)",
