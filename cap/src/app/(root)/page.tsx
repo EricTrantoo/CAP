@@ -9,10 +9,10 @@ const SignIn = () => {
     <form action = {async () => {
       "use server";
       await signIn('google')
-    }}><button className="text-lg bg-blue rounded-lg font-rubik text-white text-center mt-12"
+    }}><button className="text-lg bg-blue rounded-full w-64 py-3 text-white flex text-center justify-center items-center mt-5"
      type = "submit"> 
-     <Image src={icons.google} alt="Google Icon" width={20} height={20} /> 
-     Continue with Google
+     <Image src={icons.google} alt="Google Icon" width={24} height={24} /> 
+     <span className="pl-3"> Continue with Google </span>
      </button>
     </form>
   );
@@ -20,10 +20,11 @@ const SignIn = () => {
 
 export default function Home() {
   return (
-     <div>
-      <Image src={images.loginImage} alt="logo" className="h-30 w-20 justify-cetner items-center" />
-      <h1 className="font-bold text-xl text-black flex items-center justify-center">Welcome to Caring Assistance for People ( C. A. P. )</h1>
+     <div className="flex flex-col min-h-screen text-center justify-center items-center">
+      <Image src={images.loginImage} alt="logo" className="w-1/5 h-4/6 ml-2 justify-center items-center" />
+      <h1 className="font-bold text-3xl mt-2 text-red flex items-center justify-center">Welcome to Caring Assistance for People ( C. A. P. )</h1>
       <SignIn />
      </div>
   );
 }
+
